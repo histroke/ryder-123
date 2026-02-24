@@ -27,6 +27,9 @@ function mostrarDia() {
         case "8":
             mensaje = "seleccionaste festivo";
             break;
+        case "9":
+            mensaje = "otro dia";
+            break;
         default:
             mensaje = "No seleccionaste un día válido";
     }
